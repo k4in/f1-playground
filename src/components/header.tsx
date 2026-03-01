@@ -8,6 +8,9 @@ export function Header() {
         <Link to="/" className="[&.active]:font-bold">
           Home
         </Link>
+        <Link to="/predictions" className="[&.active]:font-bold">
+          Predictions
+        </Link>
       </nav>
 
       <ThemeToggle />
